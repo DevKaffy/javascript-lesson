@@ -61,11 +61,11 @@ let text = "Programming";
 console.log(text.substring(1, 4));
 console.log(text.substr(1, 4));
 
-let day = "30 Days of Javascript";
-console.log(day.split());
-console.log(day.split(" "));
+// let day = "30 Days of Javascript";
+// console.log(day.split());
+// console.log(day.split(" "));
 
-console.log(day.includes("days"));
+// console.log(day.includes("days"));
 
 let title = "javascript";
 let lastIndex = title.length - 1;
@@ -135,19 +135,3 @@ num--;
 // console.log(--num);
 // console.log(num--);
 console.log(num);
-
-// Ternary Operator
-let isAMan = false;
-isAMan ? console.log("Yes, he is a man") : "No, he is not a man";
-
-// let isMan = false;
-// if (isMan) {
-//   console.log("Yes, he is a man");
-// } else {
-//   console.log("No, he is not a man");
-// }
-
-// let isRaining = true;
-// if (isRaining) {
-//   console.log("Remember to take your rain coat.");
-// }
