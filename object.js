@@ -70,7 +70,6 @@ console.log(copyPerson.hasOwnProperty("Mariam"));
 const dog = {};
 console.log(dog);
 dog.name = "bingo";
-dog.legs = 2;
 dog.breed = "caucasian";
 dog.getDogInfo = function () {
   return `${this.name} ${this.breed} ${this.breed}`;
