@@ -44,8 +44,8 @@ const person = {
   },
 };
 console.log(person.fullName());
-// person.firstName = "Mariam";
-// person["lastName"] = "Bukola";
+person.firstName = "Mariam";
+person["lastName"] = "Bukola";
 console.log(person);
 
 let copyPerson = Object.assign({}, person);
@@ -70,6 +70,7 @@ console.log(copyPerson.hasOwnProperty("Mariam"));
 const dog = {};
 console.log(dog);
 dog.name = "bingo";
+dog.legs = 2;
 dog.breed = "caucasian";
 dog.getDogInfo = function () {
   return `${this.name} ${this.breed} ${this.breed}`;
@@ -146,13 +147,10 @@ const users = {
 };
 
 // Find the person who has many skills in the users object.
-
 function letMostSkills() {
   let mostSkills = "";
   for (let i in users) {
-    console.log([i]);
     if (users[i].skills.length > mostSkills.length) {
-      console.log([i].skills);
       mostSkills = i;
     }
   }
