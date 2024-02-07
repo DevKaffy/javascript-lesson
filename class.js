@@ -71,7 +71,7 @@ let title = "javascript";
 let lastIndex = title.length - 1;
 console.log(title.charAt(0));
 console.log(title.indexOf("j"));
-console.log(day.replace("days", "Months"));
+// console.log(day.replace("days", "Months"));
 
 // Assignment Operators
 let numOne = 5;
@@ -104,34 +104,34 @@ console.log(0 == false);
 console.log("0" === false);
 
 // Logical Operators
-let check = 4 > 3 && 10 > 5;
-let see = 4 > 3 && 5 > 10;
-let numThree = 4 < 3 && 5 < 4;
+// let check = 4 > 3 && 10 > 5;
+// let see = 4 > 3 && 5 > 10;
+// let numThree = 4 < 3 && 5 < 4;
 //  true and true = true
 // true and false = false
 // false and false = false
-console.log(check, see, numThree);
+// console.log(check, see, numThree);
 
-let compare = 4 > 3 || 10 > 5;
-let value = 4 > 3 || 10 < 5;
-let answer = 4 < 3 || 10 < 5;
+// let compare = 4 > 3 || 10 > 5;
+// let value = 4 > 3 || 10 < 5;
+// let answer = 4 < 3 || 10 < 5;
 
 // true or false = true;
 // true or true = true;
 // false or false = false;
-console.log(compare, value, answer);
+// console.log(compare, value, answer);
 
 // Negation Operators
-let negate = !(4 < 3);
-let result = !true;
-console.log(result, negate);
+// let negate = !(4 < 3);
+// let result = !true;
+// console.log(result, negate);
 
 // Increment and Decrement Operators
-let count = 20;
-console.log(++count);
-console.log(count++);
-let num = 20;
-num--;
+// let count = 20;
+// console.log(++count);
+// console.log(count++);
+// let num = 20;
+// num--;
 // console.log(--num);
 // console.log(num--);
-console.log(num);
+// console.log(num);
