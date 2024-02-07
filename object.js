@@ -128,21 +128,21 @@ const users = {
     isLoggedIn: false,
     points: 40,
   },
-  //   Paul: {
-  //     email: "paul@paul.com",
-  //     skills: [
-  //       "HTML",
-  //       "CSS",
-  //       "JavaScript",
-  //       "MongoDB",
-  //       "Express",
-  //       "React",
-  //       "Node",
-  //     ],
-  //     age: 20,
-  //     isLoggedIn: false,
-  //     points: 40,
-  //   },
+  Paul: {
+    email: "paul@paul.com",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MongoDB",
+      "Express",
+      "React",
+      "Node",
+    ],
+    age: 20,
+    isLoggedIn: false,
+    points: 40,
+  },
 };
 
 // Find the person who has many skills in the users object.
@@ -153,7 +153,7 @@ function letMostSkills() {
     console.log([i]);
     if (users[i].skills.length > mostSkills.length) {
       console.log([i].skills);
-      mostSkills = [i];
+      mostSkills = i;
     }
   }
   return mostSkills;
